@@ -1,0 +1,24 @@
+{
+  "name": "mmskazak/async-task-runner",
+  "description": "A simple component for running asynchronous tasks using spatie/async",
+  "type": "library",
+  "require": {
+    "php": "^7.4|^8.0",
+    "spatie/async": "^1.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "mmskazak\\AsyncTaskRunner\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mikhail Melnikov",
+      "email": "mmskazak@gmail.com"
+    }
+  ],
+  "license": "MIT"
+}
